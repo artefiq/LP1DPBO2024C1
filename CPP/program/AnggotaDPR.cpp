@@ -1,19 +1,22 @@
 // Import Library
-#include <iostream>
-#include <string>
+#include <iostream>  // Library untuk input/output stream
+#include <string>    // Library untuk penggunaan string
 
 // using standard namespace.
 using namespace std;
 
+// Deklarasi kelas AnggotaDPR
 class AnggotaDPR
 {
 private:
-    string id;
-    string name;
-    string bidang;
-    string partai;
+    // Data anggota DPR
+    string id;       // ID anggota DPR
+    string name;     // Nama anggota DPR
+    string bidang;   // Bidang atau dapil anggota DPR
+    string partai;   // Partai politik anggota DPR
 
 public:
+    // Konstruktor default untuk inisialisasi anggota DPR dengan nilai default
     AnggotaDPR()
     {
         this->id = "";
@@ -22,6 +25,7 @@ public:
         this->partai = "";
     }
 
+    // Konstruktor dengan parameter untuk inisialisasi anggota DPR dengan nilai yang diberikan
     AnggotaDPR(string id, string name, string bidang, string partai)
     {
         this->id = id;
@@ -30,6 +34,9 @@ public:
         this->partai = partai;
     }
 
+    // Getter dan setter untuk masing-masing atribut anggota DPR
+
+    // Getter dan setter untuk ID anggota DPR
     string get_id()
     {
         return id;
@@ -40,6 +47,7 @@ public:
         this->id = id;
     }
 
+    // Getter dan setter untuk nama anggota DPR
     string get_name()
     {
         return this->name;
@@ -50,6 +58,7 @@ public:
         this->name = name;
     }
 
+    // Getter dan setter untuk bidang atau dapil anggota DPR
     string get_bidang()
     {
         return this->bidang;
@@ -60,6 +69,7 @@ public:
         this->bidang = bidang;
     }
 
+    // Getter dan setter untuk partai politik anggota DPR
     string get_partai()
     {
         return this->partai;
@@ -70,15 +80,6 @@ public:
         this->partai = partai;
     }
 
-    void eat()
-    {
-        cout << this->name << " is eating!" << '\n';
-    }
-
-    void sleep()
-    {
-        cout << this->name << " is sleeping!" << '\n';
-    }
-
+    // Destruktor untuk membersihkan sumber daya yang mungkin digunakan oleh kelas
     ~AnggotaDPR() {}
 };
