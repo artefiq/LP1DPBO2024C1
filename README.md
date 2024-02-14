@@ -2,8 +2,8 @@
 
 ## Janji
 
-Saya Ahmad Taufiq Hidayat dengan NIM 2202074 mengerjakan KUIS 1
-dalam mata kuliah Struktur Data untuk keberkahanNya maka saya tidak
+Saya Ahmad Taufiq Hidayat dengan NIM 2202074 mengerjakan Latihan Praktikum 1
+dalam mata kuliah DPBO untuk keberkahanNya maka saya tidak
 melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
 ## Data Diri
